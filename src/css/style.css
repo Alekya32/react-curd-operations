@@ -13,14 +13,42 @@
 		margin-left: 330px;
 }
 
+.content{
+  margin-bottom: 10px;
+}
+
+section{
+  margin-bottom: 10px;
+}
+
+#textDisplay{
+  font-style: oblique;
+  font-size: larger;
+  color: red;
+  width:40%;
+  height:20%;
+  box-shadow: 0 4px 8px 0 rgba(8,0,2,0.2);
+  background-color: antiquewhite;
+}
+
+#add{
+    margin-left: 150px;
+    height: 36px;
+    width: auto;
+}
+
+h2{
+  padding-left: 150px;
+}
+
 #field{
   width: 400px;
   height: 45px;
 }
 
 #quote{
-  padding-left: 140px;
-  font-size: 30px;
+  height: 40px;
+  width: 400px;
 }
 
 #submit{
@@ -28,4 +56,8 @@
   font-size: larger;
   height: 34px;
   margin-left: 120px;
+}
+
+section{
+  margin-top: 248px;
 }
