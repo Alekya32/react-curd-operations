@@ -70,8 +70,10 @@ import * as FontAwesome from 'react-icons/lib/fa';
       }
     }
     
-    handleIncrement(){
-      alert("Thank you");
+    handleIncrement(i){
+      let inc=this.state.quotes;
+      inc++
+      alert("Thank You!!!"+inc)
     }
 
     handleChange(e) {
