@@ -34,7 +34,7 @@ import * as FontAwesome from 'react-icons/lib/fa';
             {this.state.items.map((item, i) => (
                 <div className="content" key={item.id}>
                   <div>
-                    {`${item.quotes} `}
+                    <q>{`${item.quotes} `}</q>
                     <button onClick={() => this.handleRemove(i)}>
                         <FontAwesome.FaTrash/>
                     </button>
@@ -71,7 +71,7 @@ import * as FontAwesome from 'react-icons/lib/fa';
     }
     
     handleIncrement(i){
-      let inc=this.state.quotes;
+      let inc=0;
       inc++
       alert("Thank You!!!"+inc)
     }
